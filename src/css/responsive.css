@@ -1,0 +1,102 @@
+@media (max-width: 1200px) {
+  .container {
+    padding: 50px 40px 40px 34px;
+  }
+
+  .header {
+    margin-bottom: 0px;
+  }
+  .main .description p,
+  .main .description .btn-register {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 976px) {
+  .container {
+    padding: 34px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .header {
+    margin-bottom: 55px;
+  }
+
+  .header img {
+    width: 130px;
+  }
+
+  .main {
+    grid-template-columns: minmax(200px, 500px);
+    gap: 20px;
+  }
+
+  .main .description p,
+  .main .description .btn-register {
+    margin-top: 20px;
+  }
+
+  .main .description {
+    text-align: center;
+  }
+
+  .main .description h1 {
+    font-size: 25px;
+  }
+
+  .main .description p {
+    font-size: 18px;
+  }
+
+  .main .description .btn-register {
+    padding: 10px 75px;
+    font-size: 14px;
+  }
+
+  .footer {
+    margin-top: 60px;
+    justify-content: center;
+  }
+
+  .footer .fa-brands {
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    background: hsl(257, 40%, 49%) url("../images/bg-mobile.svg") no-repeat;
+    background-size: contain;
+  }
+}
+
+
+@media (max-height: 832px) and (max-width: 400px) {
+  .container {
+    padding: 10px;
+  }
+  
+  .header {
+    margin-bottom: 0px;
+  }
+
+  .main {
+    gap: 0px;
+  }
+}
+
+@media (max-height: 668px) and (max-width: 375px) {
+  .main .description p,
+  .main .description .btn-register {
+    margin-top: 10px;
+  }
+
+  .main .description p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+}
